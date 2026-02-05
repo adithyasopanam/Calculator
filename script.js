@@ -51,7 +51,7 @@ function ch(expr) {
   }
 
   // 2. No consecutive operators
-  if (/[+\-*/]{2,}/.test(expr)) {
+  if (/[+\-*/%]{2,}/.test(expr)) {
     alert("Consecutive operators are not allowed.");
     return false;
   }
@@ -66,3 +66,4 @@ function ch(expr) {
   return true;
 
 }
+

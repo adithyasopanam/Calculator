@@ -45,7 +45,7 @@ function ch(expr) {
   expr = expr.trim();
 
   // 1. Allow only digits, operators (+ - * /), and parentheses
-  if (!/^[0-9+\-*/() ]+$/.test(expr)) {
+  if (!/^[0-9+\-%*/() ]+$/.test(expr)) {
     alert("Invalid character detected. Only digits and operators (+, -, *, /) are allowed.");
     return false;
   }
@@ -57,11 +57,12 @@ function ch(expr) {
   }
 
   // 3. Expression should not start or end with an operator
-  if (/^[+\*/]/.test(expr) || /[+\-*/]$/.test(expr)) {
+  if (/^[+\*/%]/.test(expr) || /[+\-*%/]$/.test(expr)) {
     alert("Expression cannot start or end with an operator.");
     return false;
   }
 
 
   return true;
+
 }

@@ -2,7 +2,7 @@
 
 ## 🔹 Overview
 This is a simple **web-based calculator** built using **HTML, CSS, and JavaScript**.  
-It supports basic arithmetic operations such as addition, subtraction, multiplication, division, and percentage.  
+It supports basic arithmetic operations such as addition, subtraction, multiplication, division, and modulo division.
 The interface is designed with a clean grid layout for easy use.
  https://adithyasopanam.github.io/Calculator/
 ---
